@@ -17,9 +17,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * Description(描述)： 无
  */
 
+
 @Controller
 public class MyController
 {
+    /**
+     * Test string.
+     *
+     * @return the string
+     */
     @RequestMapping("test1")
     @ResponseBody
     public String test()
@@ -27,6 +33,11 @@ public class MyController
         return "hello";
     }
 
+    /**
+     * Test 2 data.
+     *
+     * @return the data
+     */
     @RequestMapping("test2")
     @ResponseBody
     public Data test2()
