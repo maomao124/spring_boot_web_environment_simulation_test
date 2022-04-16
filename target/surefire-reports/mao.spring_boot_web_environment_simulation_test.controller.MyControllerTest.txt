@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: mao.spring_boot_web_environment_simulation_test.controller.MyControllerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.95 s <<< FAILURE! - in mao.spring_boot_web_environment_simulation_test.controller.MyControllerTest
+test4  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: Response content expected:<hello1> but was:<hello>
+	at mao.spring_boot_web_environment_simulation_test.controller.MyControllerTest.test4(MyControllerTest.java:121)
+
+test6  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: 
+id
+Expected: 2
+     got: 1
+
+	at mao.spring_boot_web_environment_simulation_test.controller.MyControllerTest.test6(MyControllerTest.java:159)
+
